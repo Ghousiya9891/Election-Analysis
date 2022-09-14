@@ -30,7 +30,8 @@ Ater executing the code below are the outcomes determined.
     - Jefferson
     - Denver
     - Araphoe
-      Outcome of the the County Votes after code execution
+    
+      Outcome of the the County Votes after code execution  
       ![Results_CountyVotes_Snapshot](Resources/Results_CountyVotes_Snapshot.png)
     
     From the above results it can be inferred that *Denver* county has received highest number of vote percentage of 82.8 and total number of votes counting to 306,055  
@@ -40,7 +41,8 @@ Ater executing the code below are the outcomes determined.
     - Charles Casper Stockham
     - Diana DeGette
     - Raymon Anthony Doane
-      Outcome of the the County Votes after code execution
+    
+      Outcome of the the Cadidate Votes after code execution
      ![Results_CandidateVotes_Snapshot](Resources/Results_CandidateVotes_Snapshot.png)
      
     From the above results outcome *Diana DeGette* gets the maximum number of votes as the wiinging vote count = 272,892 and winning percentage margin = 73.8%
@@ -53,7 +55,10 @@ From the snapshot of the Election Results Summary captured and the updated pytho
 - The winning percentage is calculated based on total number of votes for each candidate against the total votes casted in the election results.
 - The same script with minimum update can be used to determine the outcome of not only the county election but a state or country or any other election types.
 - If the country election results needs to calculated then dictionary of states votes with key value pair of list of states and number of votes for each state can be retrieved and the same operations performed to find the  winnding candidate and total votes and percentage of votes casted can be used.
-- The same script can be used to determine the loosing candidate by iterating over the state/county/city votes 
+- The same script can be used to determine the loosing candidate by adding a condition to compare the total votes of each candidate against the winning count and capture the candidate who has least vote count
+    Ex: if(votes<winning_count):
+            loosing_candidate=candidate_name
+    print(f'loosing candidate {loosing_candidate}')
 
 
 Text file for Election Reuslts Analysis : [election_analysis.txt](https://github.com/Ghousiya9891/Election-Analysis/tree/main/analysis)
