@@ -1,1 +1,56 @@
 # Election-Analysis
+
+## Overview of Election Audit
+
+- The purpose of the project is to go over the the election analysis data and provide the summary of election results to Colorado Board of Elections. The election results outcome will be used by the board to complete the election audit of recent local congressional election.
+
+Below outcomes of the election analysis results are required in order to fullfill the requirement.
+
+1. How many votes were cast in this congressional election?
+2. Determine breakdown of number of votes and the percentage of total votes for each county in the precinct. 
+3. Which county had the largest number of votes?
+4. Determine breakdown of the number of votes and the percentage of the total votes each candidate received
+5. Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+
+## Resources
+
+Below resources are used in order to arrive at precise election results 
+
+- Data Source: election_results.csv
+- Software: Python 3.7.6, Visual Studio Code 1.71.0
+
+## Election Audit Results
+
+Ater executing the code below are the outcomes determined.
+
+- Total of 369,711 votes are casted in the congressional electional
+    This is calculated by reading the total number of rows in the election analysis results sheet
+- Total number of votes casted in each county and the percentage of votes distribution resulted after code execution is
+| **County**    |**% of Votes**|**Total  Votes**|
+| :------------ |--------------| ---------------|
+| Jefferson     | 10.5%        | 38,855         |
+| Denver        | 82.8%        | 306,055        |
+| Araphoe       | 6.7%         | 24,801         |
+
+- From the above results it can be inferred that *Denver* county has received highest number of votes.
+- Total number of votes casted in each candidate nomemated and the percentage of votes distribution resulted after code execution is
+| **Candidate**          |**% of Votes**|**Total  Votes**|
+| :----------------------|--------------| ---------------|
+| Charles Casper Stockham| 23.0%        | 85,213         |
+| Diana DeGette          | 73.8%        | 272,892        |
+| Raymon Anthony Doane   | 3.1%         | 11,606         |
+
+- From the above results outcome *Diana DeGette* gets the maximum number of votes in congressional election
+
+Snapshot of overall election summary captured
+![Election_Results_Snapshot](Resources/Election_Results_Snapshot.png)
+
+## Election-Audit Summary
+
+From the snapshot of the Election Results Summary captured and the updated python script following conclusion and inference can be made
+ 
+- The current script gives the winning candidate by summing up total votes for each cadidate and comparing number of votes across all the candidates. 
+- The winning percentage is calculated based on total number of votes casted for each candidate against the total votes casted in the election results.
+- The script with minimum update can be used to determine the outcome of not only the county election but a state or country or any other election types.
+
+Text file: []()
