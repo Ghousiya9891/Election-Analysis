@@ -45,7 +45,7 @@ Ater executing the code below are the outcomes determined.
       Outcome of the the Cadidate Votes after code execution
      ![Results_CandidateVotes_Snapshot](Resources/Results_CandidateVotes_Snapshot.png)
      
-    From the above results outcome *Diana DeGette* gets the maximum number of votes as the wiinging vote count = 272,892 and winning percentage margin = 73.8%
+    From the above results *Diana DeGette* gets the maximum number of votes as the wiinging vote count = 272,892 and winning percentage margin = 73.8%
 
 ## Election-Audit Summary
 
