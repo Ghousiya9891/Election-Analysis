@@ -57,5 +57,5 @@ From the snapshot of the Election Results Summary captured and the updated pytho
 
 
 Text file for Election Reuslts Analysis : [election_analysis.txt](https://github.com/Ghousiya9891/Election-Analysis/tree/main/analysis)
-Snapshot of overall election summary
-![Election_Results_Snapshot](Resources/Election_Results_Snapshot.png)
+
+Script for PollChallenge: [PyPoll_Challenge_starter_code.py](https://github.com/Ghousiya9891/Election-Analysis/blob/main/PyPoll_Challenge_starter_code.py)
