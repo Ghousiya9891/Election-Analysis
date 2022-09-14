@@ -25,22 +25,25 @@ Ater executing the code below are the outcomes determined.
 
 - Total of 369,711 votes are casted in the congressional electional
     This is calculated by reading the total number of rows in the election analysis results sheet
-- Total number of votes casted in each county and the percentage of votes distribution resulted after code execution is
-| **County**    |**% of Votes**|**Total  Votes**|
-| :------------ |--------------| ---------------|
-| Jefferson     | 10.5%        | 38,855         |
-| Denver        | 82.8%        | 306,055        |
-| Araphoe       | 6.7%         | 24,801         |
+- Following are total number of votes casted in each county, list of counties and the percentage of votes distribution resulted after code execution 
+   Counties participated in the election
+    - Jefferson
+    - Denver
+    - Araphoe
+ 
+- Outcome of the the County Votes after code execution
+  ![Results_CountyVotes_Snapshot.png](Resources\Results_CountyVotes_Snapshot.png)
+    From the above results it can be inferred that *Denver* county has received highest number of vote percentage of 83.8 and total number of votes counting to 306,055  
+- Following are list of candidates participated and total number of votes won for each candidate and the percentage of votes distribution resulted after code execution 
+   Candidates participated in the election
+    - Charles Casper Stockham
+    - Diana DeGette
+    - Raymon Anthony Doane
+   
+- Outcome of the the County Votes after code execution
+  ![Results_CandidateVotes_Snapshot.png](Resources\Results_CandidateVotes_Snapshot.png)
 
-- From the above results it can be inferred that *Denver* county has received highest number of votes.
-- Total number of votes casted in each candidate nomemated and the percentage of votes distribution resulted after code execution is
-| **Candidate**          |**% of Votes**|**Total  Votes**|
-| :----------------------|--------------| ---------------|
-| Charles Casper Stockham| 23.0%        | 85,213         |
-| Diana DeGette          | 73.8%        | 272,892        |
-| Raymon Anthony Doane   | 3.1%         | 11,606         |
-
-- From the above results outcome *Diana DeGette* gets the maximum number of votes in congressional election
+- From the above results outcome *Diana DeGette* gets the maximum number of votes as the wiinging vote count = 272,892 and winning percentage margin = 73.8%
 
 Snapshot of overall election summary captured
 ![Election_Results_Snapshot](Resources/Election_Results_Snapshot.png)
@@ -53,4 +56,4 @@ From the snapshot of the Election Results Summary captured and the updated pytho
 - The winning percentage is calculated based on total number of votes casted for each candidate against the total votes casted in the election results.
 - The script with minimum update can be used to determine the outcome of not only the county election but a state or country or any other election types.
 
-Text file: []()
+Text file for Election Reuslts Analysis : [election_analysis.txt](https://github.com/Ghousiya9891/Election-Analysis/tree/main/analysis)
