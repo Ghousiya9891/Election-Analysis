@@ -51,10 +51,9 @@ Ater executing the code below are the outcomes determined.
 
 From the snapshot of the Election Results Summary captured and the updated python script following conclusion and inference can be made
  
-- The current script gives the winning candidate by summing up total votes for each cadidate and comparing total number of votes for all candidates. 
-- The winning percentage is calculated based on total number of votes for each candidate against the total votes casted in the election results.
+- The current script gives the winning candidate by summing up total votes for each cadidate and comparing total number of votes percentage of votes across all the candidates . 
 - The same script with minimum update can be used to determine the outcome of not only the county election but a state or country or any other election types.
-- If the country election results needs to calculated then dictionary of states votes with key value pair of list of states and number of votes for each state can be retrieved and the same operations performed to find the  winnding candidate and total votes and percentage of votes casted can be used.
+- If the country election results needs to calculated then dictionary of states votes with key value pair of list of states and number of votes for each state can be defined and the same operations performed to find the  winnding candidate and total votes and percentage of votes casted can be used by iterating over the data given.
 - The same script can be used to determine the loosing candidate by adding a condition to compare the total votes of each candidate against the winning count and capture the candidate who has least vote count
     Ex: if(votes<winning_count):
             loosing_candidate=candidate_name
