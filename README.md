@@ -60,6 +60,6 @@ From the snapshot of the Election Results Summary captured and the updated pytho
     print(f'loosing candidate {loosing_candidate}')
 
 
-Text file for Election Reuslts Analysis : [election_analysis.txt](https://github.com/Ghousiya9891/Election-Analysis/tree/main/analysis)
+Text file for Election Reuslts Analysis : [election_results.txt](https://github.com/Ghousiya9891/Election-Analysis/tree/main/analysis)
 
 Script for PollChallenge: [PyPoll_Challenge_starter_code.py](https://github.com/Ghousiya9891/Election-Analysis/blob/main/PyPoll_Challenge_starter_code.py)
