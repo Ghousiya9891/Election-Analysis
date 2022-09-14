@@ -24,7 +24,7 @@ Below resources are used in order to arrive at precise election results
 Ater executing the code below are the outcomes determined.
 
 - Total of 369,711 votes are casted in the congressional electional
-    This is calculated by reading the total number of rows in the election analysis results sheet
+    This is calculated by reading the total number of rows in the election analysis sheet
 - Following are total number of votes casted in each county, list of counties and the percentage of votes distribution resulted after code execution 
    Counties participated in the election
     - Jefferson
